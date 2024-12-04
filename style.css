@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    border: solid 5px red;
+    /*border: solid 5px red;*/
     margin: 0;
 }
 .header,
@@ -9,7 +9,7 @@ body {
     display: flex;
     height: 50px;
     justify-content: space-between;
-    border: solid 5px red;
+    /*border: solid 5px red;*/
     background-color: #1f2937;
     font-family: "Roboto";
     font-size: 15px;
@@ -22,9 +22,11 @@ body {
 
 }
 .first-section {
+    display: flex;
     height: 200px;
-    border: solid 5px red;
+    /*border: solid 5px red;*/
     background-color: #1f2937;
+    justify-content: space-evenly;
 }
 .second-section {
     height: 200px;
@@ -40,7 +42,7 @@ body {
 }
 .right-links {
     display: flex;
-    border: solid 5px red;
+    /*border: solid 5px red;*/
 }
 ul {
     display: flex;
@@ -51,4 +53,47 @@ ul {
 a {
     text-decoration: none;
     color: grey;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding-left: 20px;
+   /* border: solid 5px red;*/
+}
+.image {
+    display: flex;
+    color: white;
+    background-color: grey;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+    /*border: solid 5px red;*/
+}
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Roboto";
+    color: #f9faf8;
+    padding-bottom: 10px;
+   /* border: solid 5px red;*/
+}
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto";
+    padding-bottom: 10px;
+    /*border: solid 5px red;*/
+}
+.sign-up {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    /*border: solid 5px red;*/
 }
