@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px red;
+    margin: 0;
+}
+.header,
+.right-links {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    border: solid 5px red;
+    background-color: #1f2937;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.header {
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.first-section {
+    height: 200px;
+    border: solid 5px red;
+    background-color: #1f2937;
+}
+.second-section {
+    height: 200px;
+    border: solid 5px red;
+}
+.third-section {
+    height: 200px;
+    border: solid 5px red;
+}
+.fourth-section {
+    height: 200px;
+    border: solid 5px red;
+}
+.right-links {
+    display: flex;
+    border: solid 5px red;
+}
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
